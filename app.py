@@ -13,7 +13,7 @@ def generate(page_name):
     # Read the Markdown file and convert it to HTML
     with open(md_file_path, 'r', encoding='utf-8') as f:
         md_text = f.read()
-    html = markdown.markdown(md_text, output_format='html5', extensions=['fenced_code', 'tables'])
+    html = markdown.markdown(md_text, output_format='html5', extensions=['fenced_code', 'tables', 'pymdownx.inlinehilite', 'pymdownx.highlight'])
 
     # Render the HTML as a template
     return render_template('page.html', html=html, page_name=page_name)
