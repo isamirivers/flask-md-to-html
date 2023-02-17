@@ -33,3 +33,6 @@ def main_page():
 
     # Render the HTML as a template
     return render_template('page.html', html=html, page_name=page_name)
+
+if __name__ == '__main__':
+    app.run()
