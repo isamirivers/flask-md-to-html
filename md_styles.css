@@ -15,3 +15,5 @@ main {
 table {
     border-spacing: 30px 10px;
 }
+
+code {font-family: monospace;}
