@@ -32,7 +32,7 @@ def main_page():
     html = markdown.markdown(md_text, output_format='html5', extensions=['fenced_code'])
 
     # Render the HTML as a template
-    return render_template('page.html', html=html, page_name=page_name)
+    return render_template('page.html', html=html, page_name="Main page")
 
 if __name__ == '__main__':
     app.run()
