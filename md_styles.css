@@ -11,3 +11,7 @@ body {
 main {
     width: 700px;
 }
+
+table {
+    border-spacing: 30px 10px;
+}
