@@ -1,0 +1,13 @@
+* {
+    font-family: sans-serif;
+    word-break: break-word;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 700px;
+}
