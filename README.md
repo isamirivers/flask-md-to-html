@@ -3,4 +3,4 @@ This is a bunch of code that converts markdown files in "pages" folder, turns it
 ## How to install?
 1. Clone this repo
 2. `pip3 install -r requirements.txt`
-3. `python3 app.py`
+3. `python3 app.py` or use your WSGI like gunicorn or something

@@ -25,3 +25,6 @@ def show_page(page_name):
 @app.route('/')
 def main_page():
     return generate('index')
+
+if __name__ == '__main__':
+    app.run()
